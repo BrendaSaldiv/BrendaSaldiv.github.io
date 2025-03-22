@@ -4708,23 +4708,20 @@ input, select, textarea {
 		align-items: center;
 		font-size: 2rem;
 		transition: transform 0.2s;
+		flex: 1;
+		
 	}
 	.tech-item:hover {
 		transform: scale(1.2);
 	}
 	.tech-item i {
-		font-size: 3rem;
+		font-size: 6rem;
 		margin-bottom: 8px;
 	}
-	.html { color: #E34F26; }       /* Color de HTML */
-	.css { color: #1572B6; }        /* Color de CSS */
-	.js { color: #F7DF1E; }         /* Color de JavaScript */
-	.bootstrap { color: #7952B3; }  /* Color de Bootstrap */
-	.figma { color: #F24E1E; }      /* Color de Figma */
-	.python { color: #3776AB; }     /* Color de Python */
-	.java { color: #007396; }       /* Color de Java */
-	.git { color: #F05032; }        /* Color de Git */
+	.tech-item img {
+		height: 6rem;
+		margin-bottom: 8px;
+	}
+	
+	
 	.github { color: #181717; }     /* Color de GitHub */
-	.vs-code { color: #007ACC; }    /* Color de Visual Studio Code */
-	.intellij { color: #FB8122; }   /* Color de IntelliJ */
-	.scrum, .jira, .trello, .ai { color: #2C3E50; } /* Genérico */
